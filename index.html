@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main> <!--parte inicial-->
+		<section class="container-criptografar">
+			<textarea class="text_Criptografar" cols="40" rows="10" placeholder="Digite seu texto aqui"></textarea>
+			<span class="alerta"><img src="./img/alert.svg">Apenas letras minúsculas e sem acento.</span>
+
+			<div class="group-buttons">
+				<button class="button-cripto" onclick="btnEncriptar()">criptografar</button>	
+				<button class="button-descripto" onclick="btnDesencriptar()">Descriptografar</button>
+			</div>
+		</section>
+
+		<section class="container-copiar-texto">
+			<textarea class="mensagem_texto" cols="40" rows="10" placeholder=""></textarea>
+			<button id="copy" class="button-copiar" onclick="copiar()">Copiar</button>
+		</section>				
+	</main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
